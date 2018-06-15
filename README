@@ -1,0 +1,23 @@
+This program download a video from xvideo, then split it into 3 part, 
+then upload 2nd part to xvideo again
+
+Tested on Ubuntu 16.04 , 64bit
+1. Install requirements:
+
+sudo apt-get install python-pip chromium-browser
+sudo pip install --upgrade pip
+
+sudo pip install selenium bs4 requests
+
+2. Run demo:
+
+-Edit variables :
+big_path="/save/video/path/" => path: video download , split video files, and the video file will be upload 
+accounts = ["testemail@domain.com"] => email
+password = "password_here" => password
+- Open terminal, cd into xvideo folder, then:
+
+export PATH=$PATH:.
+
+python demo.py
+
