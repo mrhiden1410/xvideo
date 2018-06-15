@@ -9,6 +9,7 @@ sudo pip install --upgrade pip
 
 sudo pip install selenium bs4 requests
 
+Or run install_dep.sh
 2. Run demo:
 
 -Edit variables :
