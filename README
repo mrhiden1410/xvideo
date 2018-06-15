@@ -1,4 +1,4 @@
-This program download a video from xvideo, then split it into 3 part, 
+This is a python program: download a video from xvideo, then split it into 3 part, 
 then upload 2nd part to xvideo again
 
 Tested on Ubuntu 16.04 , 64bit
